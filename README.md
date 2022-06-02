@@ -1,5 +1,5 @@
 # JackFrostDiscordBot
-The Worst discord bot you'll ever see. Made for a server for a server with my friends.
+A discord bot so I could train some js, not really that good, but eh, it's mine and I love him
 
 
 # How to selfhost
