@@ -41,11 +41,6 @@ Client.on('ready', () => {
 })
 
 Client.on("message", function(message){
-    Client.user.setActivity("Hee-Ho!");
-    if(message.content.toLowerCase().includes("aggin")||message.content.toLowerCase().includes("nibb4")||message.content.toLowerCase().includes("n1bb4")|| message.content.toLowerCase().includes("nibb") || message.content.toLowerCase().includes("nigg") || message.content.toLowerCase().includes("nigger") || message.content.toLowerCase().includes("n1gg4") || message.content.toLowerCase().includes("n1gg3r") || message.content.toLowerCase().includes("n1gg4r") || message.content.toLowerCase().includes("niga") ||message.content.toLowerCase().includes("n1gg") || message.content.toLowerCase().includes("n1ggr") || message.content.toLowerCase().includes("n1gg4r")){
-        message.delete();
-        message.reply(`não fala a n-word porra`);
-    }
     if(message.author.bot) return;
     if (message.webhookID) return;
     for(i = 0; i < CanalSugestoes.length; i++){
